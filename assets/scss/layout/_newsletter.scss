@@ -1,0 +1,30 @@
+.newsletter {
+    width: 100%;
+    background-color: $light-white;
+    text-align: center;
+    padding: 1.9rem ;
+
+    h2, p {
+      margin-bottom: 1rem;  
+    }
+
+    &__group input, &__group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: $large;
+    padding: 0.3125rem 0.625rem;
+
+    }
+
+    &__group button {
+    background-color: $coral;
+    color: $white;
+    }
+
+
+  
+}
+
+.newsletter h2 {
+    font-size: $x-large;
+}

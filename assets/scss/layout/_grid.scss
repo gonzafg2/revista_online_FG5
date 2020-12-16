@@ -1,0 +1,39 @@
+.main {
+    display: grid;
+    margin: 2em 6em;
+    grid-template-columns: repeat(5, 1fr);
+    
+
+    .item-1 {
+        grid-column: span 4 ;
+        border: 1px solid red;
+        margin-right: 0em;
+    }
+
+    .item-2 {
+        border: 1px solid red;
+    }
+}
+
+.main__sub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    
+    .item__inner {
+        border: 1px solid gold;
+        width: 270px;
+
+        img {
+            width: 100%;
+            height: auto;
+            padding-bottom: .5em;
+        }
+
+        &__title {
+            padding-bottom: .5em;
+        }
+    }
+
+    
+}
