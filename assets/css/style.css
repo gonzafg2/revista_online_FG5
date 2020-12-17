@@ -7,6 +7,10 @@ body, header, nav, main, a, section, footer, aside, article, span, p, h1, h2, h3
   margin: 0;
 }
 
+body, body * {
+  font-family: "Roboto Mono", monospace;
+}
+
 .barraNav {
   display: flex;
   justify-content: center;
@@ -32,6 +36,15 @@ body, header, nav, main, a, section, footer, aside, article, span, p, h1, h2, h3
   border-radius: 20px;
   border-style: solid;
   width: 120px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__rights {
+  padding: 10px 0;
 }
 
 body {
