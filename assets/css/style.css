@@ -38,6 +38,10 @@ body, body * {
   width: 120px;
 }
 
+.boletin__titulo {
+  font-size: 20px;
+}
+
 .footer {
   display: flex;
   align-items: center;
