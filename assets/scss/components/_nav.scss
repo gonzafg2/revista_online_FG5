@@ -1,0 +1,26 @@
+.barraNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: gray 2px solid;
+  &__titulo {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  &__nav {
+    list-style: none;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    margin-right: 12px;
+  }
+  &__buscar {
+    border-radius: 20px;
+    border-style: solid;
+    width: 120px;
+  }
+}
