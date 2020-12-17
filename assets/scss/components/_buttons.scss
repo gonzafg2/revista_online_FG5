@@ -1,0 +1,20 @@
+.button {
+    padding: .4rem 1rem;
+    border-radius: 3px;
+    font-family: $font-family;
+    font-size: $medium;
+    font-weight: $bold;
+    color: $white;
+}
+
+.button_default {
+    background-color: $carmine-pink;
+    border: 1px solid $carmine-pink;
+    margin-top: 1rem;
+
+    &:hover {
+        background-color: $salmon;
+        background-color: $salmon;
+        color: $black-olive;
+    }
+}

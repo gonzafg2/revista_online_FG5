@@ -11,6 +11,26 @@ body, body * {
   font-family: "Roboto Mono", monospace;
 }
 
+.button {
+  padding: 0.4rem 1rem;
+  border-radius: 3px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.button_default {
+  background-color: #E94F37;
+  border: 1px solid #E94F37;
+  margin-top: 1rem;
+}
+.button_default:hover {
+  background-color: #EF7F6D;
+  background-color: #EF7F6D;
+  color: #393E41;
+}
+
 .barraNav {
   display: flex;
   justify-content: center;
@@ -40,6 +60,7 @@ body, body * {
 
 .boletin__titulo {
   font-size: 20px;
+  background-color: #393E41;
 }
 
 .footer {
