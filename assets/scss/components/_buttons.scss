@@ -1,10 +1,11 @@
 .button {
     padding: .4rem 1rem;
     border-radius: 3px;
-    font-family: $font-family;
-    font-size: $medium;
+    font-family: $roboto;
+    font-size: $x-small;
     font-weight: $bold;
     color: $white;
+    width: 100px;
 }
 
 .button_default {

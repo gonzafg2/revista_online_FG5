@@ -1,6 +1,6 @@
 .barraNav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0;
   border-bottom: gray 2px solid;
@@ -9,14 +9,20 @@
     margin-right: 20px;
     font-size: 20px;
   }
-  &__nav {
+  &__list {
     list-style: none;
+    margin-right: 12px;
+    li {
+      display: inline-block;
+    }
     a {
       text-decoration: none;
       text-transform: uppercase;
       font-size: 12px;
     }
-    margin-right: 12px;
+    &-hidden {
+      display: none;
+    }
   }
   &__buscar {
     border-radius: 20px;
@@ -24,3 +30,14 @@
     width: 120px;
   }
 }
+
+@media (min-width: 576px){
+ .barraNav {
+   &__list {
+     &-hidden {
+       display: inline-block;
+     }
+   }
+ }
+}
+

@@ -14,31 +14,102 @@
   <nav class="barraNav">
     <h1 class="barraNav__titulo">Diario</h1>
     
-    <ul class="barraNav__nav">
-      <li>
-        <a href="#">Contacto</a>
-      </li>
+    <ul class="barraNav__list">
+      <li><a class="barraNav__list-hidden" href="#">Nosotros</a></li>
+      <li><a href="#">Contacto</a></li>
+      <li><input class="barraNav__buscar" type="text" placeholder="buscar..."></li>
+        <!-- <input type="search" name="" id=""> -->
     </ul>
-
-    <input class="barraNav__buscar" type="text" placeholder="buscar...">
-    <!-- <input type="search" name="" id=""> -->
-
   </nav>
 
-  <main>
-    <section>
-      <p>Hola</p>
-    </section>
-    <aside>
-      <p>Hola</p>
+  <main class="main">
+    <section class="hero">
+        <article class="hero__item">
+          <h2 class="hero__item-title">Lorem ipsum dolor sit amet</h2>
+          <div class="hero__item-contenedor">
+            <img class="hero__item-img" src="https://picsum.photos/200/300?random=1" />
+            <p class="hero__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </article>
+
+        <article class="hero__item">
+          <h2 class="hero__item-title">Lorem ipsum dolor sit amet</h2>
+          <div class="hero__item-contenedor">
+            <img class="hero__item-img" src="https://picsum.photos/200/300?random=2" />
+            <p class="hero__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </article>
+
+        <article class="hero__item">
+          <h2 class="hero__item-title">Lorem ipsum dolor sit amet</h2>
+          <div class="hero__item-contenedor">
+            <img class="hero__item-img" src="https://picsum.photos/200/300?random=3" />
+            <p class="hero__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </article>
+        
+        <article class="hero__item">
+          <h2 class="hero__item-title">Lorem ipsum dolor sit amet</h2>
+          <div class="hero__item-contenedor">
+            <img class="hero__item-img" src="https://picsum.photos/200/300?random=4" />
+            <p class="hero__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </article>
+
+        <article class="hero__item">
+          <h2 class="hero__item-title">Lorem ipsum dolor sit amet</h2>
+          <div class="hero__item-contenedor">
+            <img class="hero__item-img" src="https://picsum.photos/200/300?random=5" />
+            <p class="hero__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </article>
+        
+        <article class="hero__item">
+          <h2 class="hero__item-title">Lorem ipsum dolor sit amet</h2>
+          <div class="hero__item-contenedor">
+            <img class="hero__item-img" src="https://picsum.photos/200/300?random=6" />
+            <p class="hero__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </article>
+
+      </section>
+
+    <aside class="aside">
+      <div class="aside__nosotros">
+        <h2>Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse inventore laudantium voluptates cum, dicta nobis aspernatur! Et eaque accusamus nesciunt enim tenetur? Expedita hic autem asperiores deserunt magnam ducimus quibusdam?</p>
+      </div>
+      <div class="aside__tags">
+        <h2>Tags</h2>
+        <ul>
+          <li class="aside__tags-item">Viajes</li>
+          <li class="aside__tags-item">Noticias</li>
+          <li class="aside__tags-item">Comida</li>
+        </ul>
+      </div> 
+      <div class="aside__destacados">
+        <h2>Destacados</h2>
+        <div class="aside__destacados-contimg">
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <img class="aside__destacados-img" src="https://picsum.photos/200/300?random=7" />
+        </div>
+        <div class="aside__destacados-contimg">
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <img class="aside__destacados-img" src="https://picsum.photos/200/300?random=8" />
+        </div>
+        <div class="aside__destacados-contimg">
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <img class="aside__destacados-img" src="https://picsum.photos/200/300?random=9" />
+        </div>
+      </div>  
     </aside>
   </main>
 
   <section class="boletin">
-    <h2 class="boletin__titulo">Lorem ipsum dolor, sit amet</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia aliquid laudantium molestias quo maiores ratione!</p>
-    <input type="email">
-    <button type="submit" class="button button_default">Suscríbete</button>
+    <h3 class="boletin__title">Lorem ipsum dolor sit amet</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <input type="email" class="boletin__input">
+    <button type="submit" class="boletin__boton button button_default">Suscríbete</button>
   </section>
 
   <footer class="footer">
